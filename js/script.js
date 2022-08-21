@@ -322,8 +322,7 @@ function processArrowKey(event) {
         }
         // Or jump back to the beginning of the row if we're rounding the corner
         if (thisRow.offsetLeft < 0 && selectedTile.offsetLeft < (thisRow.offsetLeft * -1)) {
-          let newLeft = selectedTile.offsetLeft - 5;
-          thisRow.style.left = newLeft + 'px';
+          thisRow.style.left = '5px';
         }
 			}
 
