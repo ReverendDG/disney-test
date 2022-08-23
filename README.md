@@ -16,5 +16,7 @@ Here I will explain some of my assumptions and decisions in no particular order.
 
 7) I acknowledge that my method of determining a broken image may not be the most efficient and welcome other ideas. I attempted several other, more efficient methods, however they all failed for various reasons. This method was the only one that I was able to successfully execute.
 
+8) I built this to be run from a sub-folder of both my local and public server. If you wish to rebuild this elsewhere, be sure to change/remove the base-href tag in index.html.
+
 I'm, of course, happy to answer any and all other questions regarding this code during the panel review.
 
